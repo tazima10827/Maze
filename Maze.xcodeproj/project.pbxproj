@@ -14,6 +14,7 @@
 		9FF644D9207FC02700AF291B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF644D7207FC02700AF291B /* LaunchScreen.storyboard */; };
 		9FF644E4207FC02700AF291B /* MazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF644E3207FC02700AF291B /* MazeTests.swift */; };
 		9FF644EF207FC02700AF291B /* MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF644EE207FC02700AF291B /* MazeUITests.swift */; };
+		9FF644FE207FC8C800AF291B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF644FD207FC8C800AF291B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9FF644EA207FC02700AF291B /* MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF644EE207FC02700AF291B /* MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeUITests.swift; sourceTree = "<group>"; };
 		9FF644F0207FC02700AF291B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF644FD207FC8C800AF291B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF644FE207FC8C800AF291B /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				9FF644E2207FC02700AF291B /* MazeTests */,
 				9FF644ED207FC02700AF291B /* MazeUITests */,
 				9FF644CC207FC02700AF291B /* Products */,
+				9FF644FC207FC8C700AF291B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				9FF644F0207FC02700AF291B /* Info.plist */,
 			);
 			path = MazeUITests;
+			sourceTree = "<group>";
+		};
+		9FF644FC207FC8C700AF291B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF644FD207FC8C800AF291B /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
